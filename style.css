@@ -139,7 +139,7 @@ header a{
 }
 
 .music{
-    background-color: blueviolet;
+    background-color: rgb(150, 93, 204);
     padding: 1rem 0rem;
     margin: 0rem 2rem;
     border-radius: 40px;
@@ -175,6 +175,25 @@ audio{
     
 } 
 
+
+@media screen and (max-width: 320px){
+    audio{
+        width: 60%
+    }
+    .music{
+        margin: 5rem  .6rem;
+
+    }
+    .main{
+        height: 160%;
+    }
+    #main-song-area{
+        height: 225%;
+    }
+    
+    
+} 
+
 audio::-webkit-media-controls-panel {
     background-color: rgba(213, 226, 233, 0.986);
     
@@ -182,7 +201,7 @@ audio::-webkit-media-controls-panel {
 }
 
 audio::-webkit-media-controls-play-button{
-    background-color: rgba(160, 186, 201, 0.986);
+    
     border-radius: 50%;
     
 }
