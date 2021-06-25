@@ -162,7 +162,14 @@ audio{
         width: 70%
     }
     .music{
-        margin: 0rem  .6rem;
+        margin: 5rem  .6rem;
+
+    }
+    .main{
+        height: 160%;
+    }
+    #main-song-area{
+        height: 160%;
     }
     
     
